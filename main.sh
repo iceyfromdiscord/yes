@@ -7,7 +7,6 @@
 # Define the root directory to /home/container.
 # We can only write in /home/container and /tmp in the container.
 ROOTFS_DIR=/
-# ROOTFS_DIR=/home/jovyan
 
 export PATH=$PATH:~/.local/usr/bin
 
