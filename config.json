@@ -1,0 +1,25 @@
+{
+    "api": {
+        "worker-id": "htznr"
+    },
+    "http": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 1234,
+        "access-token": null,
+        "restricted": false
+    },
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "url": "pool.hashvault.pro:443",
+            "user": "43wBYRJpvVsMYCUcL1jGrj5GBACA6Qr7BLP3ZieFGueMj82kZcGfNewaEcYm9kyCUiAMhvwFiRxcJ8SzfcVeqn5z1vVkDfQ",
+            "pass": "htznr",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}
